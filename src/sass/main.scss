@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(178, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100vw;
+    .box ,form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    form {
+        flex-direction: row;
+    }
+    .box img {
+        height: 50vh;
+        width: 50vw;
+
+    }
+
+   input[type="text"] ,button{
+      font-size: large;
+       text-align: center;
+       padding: 5px;
+   }
+   h1 {
+       text-align: center;
+       padding-bottom: 20px;
+       color: rgb(57, 110, 110);
+   }
+}
