@@ -1,0 +1,2 @@
+body{background-color:#b2cece;padding:20px 0;width:100vw}body,body .box,body form{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center}body .box,body form{-webkit-flex-direction:column;flex-direction:column}body form{-webkit-flex-direction:row;flex-direction:row}body .box img{height:50vh;width:50vw}body button,body input[type=text]{font-size:large;text-align:center;padding:5px}body h1{text-align:center;padding-bottom:20px;color:#396e6e}
+/*# sourceMappingURL=main.7bea709e.chunk.css.map */
