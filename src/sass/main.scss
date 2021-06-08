@@ -1,34 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: rgb(178, 206, 206);
+  background-color: rgb(178, 206, 206);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0;
+  width: 100vw;
+  height: 100vh;
+  .box ,
+  form {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
-    width: 100vw;
-    .box ,form{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    flex-direction: column;
+    padding: 30px;
+  }
+  form {
+    flex-direction: row;
+  }
 
-    }
-    form {
-        flex-direction: row;
-    }
-    .box img {
-        height: 50vh;
-        width: 50vw;
+  input[type="text"],
+  button {
+    font-size: large;
+    text-align: center;
+    
+  }
+  h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(57, 110, 110);
+  }img {
+  height: 50vh;
+  width: 50vw;
+}
+}
+.load {
+  position: relative;
+  padding-top: 15rem;
+  height: 20vh;
+  text-align: center;
+  
+  
+}
 
-    }
 
-   input[type="text"] ,button{
-      font-size: large;
-       text-align: center;
-       padding: 5px;
-   }
-   h1 {
-       text-align: center;
-       padding-bottom: 20px;
-       color: rgb(57, 110, 110);
-   }
+.rotate {
+  font-size: 150px;
+  animation: turn 2s running forwards;
+  position:fixed ;
+  top: 45vh;
+  left: 45vw;
+  
+  
+}
+@keyframes turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
