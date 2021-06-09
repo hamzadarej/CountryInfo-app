@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c450ddf.chunk.css",
-    "main.js": "/static/js/main.e54b2fb8.chunk.js",
-    "main.js.map": "/static/js/main.e54b2fb8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7b286ee0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7b286ee0.js.map",
-    "static/js/2.4d16776c.chunk.js": "/static/js/2.4d16776c.chunk.js",
-    "static/js/2.4d16776c.chunk.js.map": "/static/js/2.4d16776c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.3c450ddf.chunk.css.map": "/static/css/main.3c450ddf.chunk.css.map",
-    "static/js/2.4d16776c.chunk.js.LICENSE.txt": "/static/js/2.4d16776c.chunk.js.LICENSE.txt"
+    "main.css": "/hamzadarej/CountryInfo-app.git/static/css/main.3c450ddf.chunk.css",
+    "main.js": "/hamzadarej/CountryInfo-app.git/static/js/main.e54b2fb8.chunk.js",
+    "main.js.map": "/hamzadarej/CountryInfo-app.git/static/js/main.e54b2fb8.chunk.js.map",
+    "runtime-main.js": "/hamzadarej/CountryInfo-app.git/static/js/runtime-main.4b108014.js",
+    "runtime-main.js.map": "/hamzadarej/CountryInfo-app.git/static/js/runtime-main.4b108014.js.map",
+    "static/js/2.4d16776c.chunk.js": "/hamzadarej/CountryInfo-app.git/static/js/2.4d16776c.chunk.js",
+    "static/js/2.4d16776c.chunk.js.map": "/hamzadarej/CountryInfo-app.git/static/js/2.4d16776c.chunk.js.map",
+    "index.html": "/hamzadarej/CountryInfo-app.git/index.html",
+    "static/css/main.3c450ddf.chunk.css.map": "/hamzadarej/CountryInfo-app.git/static/css/main.3c450ddf.chunk.css.map",
+    "static/js/2.4d16776c.chunk.js.LICENSE.txt": "/hamzadarej/CountryInfo-app.git/static/js/2.4d16776c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b286ee0.js",
+    "static/js/runtime-main.4b108014.js",
     "static/js/2.4d16776c.chunk.js",
     "static/css/main.3c450ddf.chunk.css",
     "static/js/main.e54b2fb8.chunk.js"
