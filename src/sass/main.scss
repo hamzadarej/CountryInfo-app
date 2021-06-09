@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: rgb(178, 206, 206);
@@ -11,7 +11,7 @@ body {
   padding: 20px 0;
   width: 100vw;
   height: 100vh;
-  .box ,
+  .box,
   form {
     display: flex;
     justify-content: center;
@@ -22,40 +22,51 @@ body {
   form {
     flex-direction: row;
   }
+  .box {
+    height: 70vh;
+    border: 1px dotted rgb(121, 175, 119);
+    justify-content: space-between;
+  }
+  h5 {
+    padding: 10px;
+  }
 
   input[type="text"],
   button {
     font-size: large;
     text-align: center;
-    
+    background-color: rgb(141, 189, 141);
+    color: white;
+    padding: 5px;
   }
   h1 {
     text-align: center;
     padding-bottom: 20px;
     color: rgb(57, 110, 110);
-  }img {
-  height: 50vh;
-  width: 50vw;
-}
+  }
+  img {
+    height: 40vh;
+    width: 40vw;
+  }
 }
 .load {
+  width: 100vw;
   position: relative;
-  padding-top: 15rem;
-  height: 20vh;
-  text-align: center;
-  
-  
+  padding-top: 10rem;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-
 .rotate {
-  font-size: 150px;
+  font-size: 120px;
   animation: turn 2s running forwards;
-  position:fixed ;
-  top: 45vh;
-  left: 45vw;
-  
-  
+
+  text-align: center;
+
+  padding: 30px 0;
 }
 @keyframes turn {
   from {
@@ -64,4 +75,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-} 
+}
